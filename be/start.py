@@ -1,8 +1,6 @@
 from flask import Flask
 from flask_cors import CORS
 
-chat_history = {}
-
 
 def startUp():
     print("Starting backend initialization...")
